@@ -4,14 +4,25 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Login</title>
+		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-		<h1>Login</h1>
+		<header>
+			<nav class="srt"> <img src="logo.png" alt="" class="im">
+				<p>Central Coalfields Limited</p>
+			</nav>
+			<!-- <h1>Registration</h1> -->
+		</header>
+		<div class="container">
+			<div class="head">
+				<h1>USER LOGIN</h1>
+			</div>
 		<form id="login">
 			<input type="text" autocomplete="off" id="username" placeholder="Username" />
 			<input type="password" autocomplete="off" id="password" placeholder="Password" />
-			<input type="submit" value="Submit Form" />
+			<input type="submit" value="Submit Form" id="btn"/>
 		</form>
+	</div>
 
 		<script>
 			const form = document.getElementById('login')
